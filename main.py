@@ -8,7 +8,6 @@ from bot.order import create_order
 
 
 def main():
-    # Instantiate the application logging engine
     logger = set_logs()
     
     parser = argparse.ArgumentParser(description="Trading Bot Command-Line Interface")
