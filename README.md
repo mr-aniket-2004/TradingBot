@@ -141,23 +141,20 @@ python main.py --symbol BTCUSDT --side SELL --type LIMIT --quantity 0.001 --pric
 Upon safe execution and confirmation from the exchange gateway, raw network response arrays are intercepted and transformed into structured telemetry blocks inside both the standard terminal view and the automated logfile destination `mytraderbot.log`:
 
 ```text
-===========================================================
-               SYSTEM ORDER TRANSACTION METRICS
-===========================================================
-[DATETIME STAMP] : 2026-05-18 23:30:03
-[SYMBOL TICKER]  : BTCUSDT
-[MARKET POSTURE] : SELL [SHORT POSITION]
-[ORDER LOGIC]    : LIMIT STRATEGY
-[VOLUME SIZING]  : 0.001
-[TARGET PRICE]   : $50000.00
+=============================================
+          === Transaction Details===
+ Target Trade Pair   : BTCUSDT
+ Execution Direction : SELL
+ Order Type Strategy : LIMIT
+ Asset Order Volume  : 0.002
+ Cost Limit Capital  : $75000
 
-------------------- NETWORK INGEST STATUS ------------------
-▶ Order Reference ID : 8471920516
-▶ Execution Status   : NEW / ACCEPTED BY BOOK
-▶ Time-In-Force Type : GTC (Good 'Til Cancelled)
-▶ Log Accumulation   : Written safely to [mytraderbot.log]
-===========================================================
-[PROCESS SUCCEEDED]: Validation passed. Order dispatched without error.
+          === MOCK EXCHANGE METRICS ===
+ Order Tracking ID   : 13157481680
+ Execution Status    : FILLED
+ Filled Asset Units  : 0.0020
+ Weighted Average Px : $76290.400000
+=============================================
 
 ```
 

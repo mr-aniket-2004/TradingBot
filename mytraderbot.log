@@ -6,3 +6,6 @@
 2026-05-18 22:06:25,726 - mytraderbot.log - INFO - Order processed successfully via server. Order ID: 13157103231
 2026-05-18 22:06:38,480 - mytraderbot.log - ERROR - Failed to create order: Price greater than max price. (Status Code: 400)
 2026-05-18 22:06:58,372 - mytraderbot.log - INFO - Order processed successfully via server. Order ID: 13157105370
+2026-05-18 23:52:26,971 - mytraderbot.log - ERROR - Failed to create order: Margin is insufficient. (Status Code: 400)
+2026-05-18 23:52:53,268 - mytraderbot.log - ERROR - Failed to create order: Limit price can't be lower than 72506.86. (Status Code: 400)
+2026-05-18 23:53:39,547 - mytraderbot.log - INFO - Order processed successfully via server. Order ID: 13157481680
