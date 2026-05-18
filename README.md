@@ -12,7 +12,7 @@ The framework utilizes modular scaling to isolate connection logic, state routin
 
 '''
 
-![System Metrics Diagram](images/system_diagram.png.png)
+![System Metrics Diagram](images/system_diagram.png)
 
 '''
 
