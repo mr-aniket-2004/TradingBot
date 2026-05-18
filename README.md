@@ -10,18 +10,11 @@ The framework utilizes modular scaling to isolate connection logic, state routin
 
 ### Dependency Flow Data Map
 
-```text
-    [ main.py ] ──(Parses CLI Inputs)──> [ bot/validators.py ] (Enforces Integrity)
-         │                                      │
-         ▼                                      ▼
- [ bot/log_file.py ] <──(Telemetry Stream)── [ bot/order.py ] 
-                                                │
-                                         (Dispatches Payload)
-                                                │
-                                                ▼
-                                       [ bot/client.py ] ──(WSS/REST)──> [ Binance Testnet ]
+'''
 
-```
+![System Metrics Diagram](images/system_diagram.png.png)
+
+'''
 
 ### Repository File Tree
 
